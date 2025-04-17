@@ -29,7 +29,7 @@ const LocationSection = [
   },
   {
     img: section2Image2,
-    titleText: "쌍용건설만의 특화설계 및 쾌적한 단지설계",
+    titleText: "일신건영만의 특화설계 및 쾌적한 단지설계",
     contentText:
       "세련된 커튼월룩 외관<br />펜트리 및 광폭드레스룸 등 특화설계 적용",
   },
@@ -57,7 +57,7 @@ const LocationSection = [
     titleText:
       "부천의 중심<br /> 단지 앞 도서관, <br /> 계족산 공원프리미엄까지  ",
     contentText:
-      " 부천의 중심 핵심주거타운 <br /> 쌍용건설 프리미엄은 덤으로",
+      " 부천의 중심 핵심주거타운 <br /> 일신건영 프리미엄은 덤으로",
   },
 ];
 

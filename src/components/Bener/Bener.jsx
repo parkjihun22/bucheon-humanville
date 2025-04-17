@@ -58,7 +58,7 @@ const contents = (text, isLoaded) => {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    쌍용건설이 선택한 새도시!
+                    일신건영이 선택한 새도시!
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
                    부천 제 1·2 산업단지 및 벤처협동화단지 직주근접  프리미엄
