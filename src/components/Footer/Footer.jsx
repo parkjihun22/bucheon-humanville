@@ -12,10 +12,11 @@ import InterestPopup from "../InterestPopup/InterestPopup";
 // FAMILY SITE 목록 예시
 const partnerSites = [
   { name: "엘리프 세종 5-1", url: "https://www.sekailog.com" },
-  { name: "용인 푸르지오 원클러스터 2단지", url: "https://www.beyinegzersizi.com" },
+  { name: "평택 브레인시티 수자인", url: "https://www.vaaclubs.com/" },
   { name: "도안 벽산블루밍", url: "https://www.abcya4.com/" },
   { name: "군산 경장동 중해마루힐", url: "https://www.cssdesign.kr/" },
   { name: "평택화양 동문디이스트", url: "https://www.verficktescheisse.com" },
+
 ];
 
 const Footer = () => {
@@ -52,8 +53,7 @@ const Footer = () => {
         <div className={styles.mobileWrapper}>
           {/* 상단 로고 */}
           <div className={styles.mobileLogo}>
-            <h2>일신건영</h2>
-            <p>원종 휴먼빌 클라츠</p>
+            <h2>2025 부천 원종 휴먼빌 클라츠</h2>
           </div>
 
           {/* 안내문구 */}
@@ -112,7 +112,7 @@ const Footer = () => {
           {/* COPYRIGHT */}
           <div className={styles.mobileCopyright}>
             <p>
-              COPYRIGHTⓒ 2025 원종 휴먼빌 클라츠 INC. ALL RIGHTS RESERVED.
+              COPYRIGHTⓒ 2025 부천 원종 휴먼빌 클라츠 INC. ALL RIGHTS RESERVED.
             </p>
           </div>
         </div>
@@ -120,7 +120,7 @@ const Footer = () => {
         <>
           <div className={styles.desktopWrapper}>
             <div className={styles.leftSide}>
-              <h2>원종 휴먼빌 클라츠</h2>
+              <h2>2025 부천 원종 휴먼빌 클라츠</h2>
               <p>
                 본 웹사이트에서 사용된 사진 및 이미지는 소비자의 이해를 돕기 위한
                 것으로 실제와 다를 수 있습니다.
@@ -139,7 +139,7 @@ const Footer = () => {
                   <strong>시&nbsp;행&nbsp;사</strong> (주)일신건영
                 </div>
                 <div>
-                  <strong>시&nbsp;공&nbsp;사</strong> (주)일신건영
+                  <strong>시&nbsp;공&nbsp;사</strong> (주)일신건영 
                 </div>
               </div>
               <div className={styles.buttonRow}>
@@ -167,7 +167,7 @@ const Footer = () => {
           </div>
           <div className={styles.desktopCopyright}>
             <p>
-              COPYRIGHTⓒ 2025 원종 휴먼빌 클라츠 INC. ALL RIGHTS RESERVED.
+              COPYRIGHTⓒ 2025 부천 원종 휴먼빌 클라츠 INC. ALL RIGHTS RESERVED.
             </p>
           </div>
         </>
