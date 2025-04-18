@@ -53,7 +53,7 @@ const Footer = () => {
         <div className={styles.mobileWrapper}>
           {/* 상단 로고 */}
           <div className={styles.mobileLogo}>
-            <h2>2025 부천 원종 휴먼빌 클라츠</h2>
+            <h2>부천 원종 휴먼빌 클라츠</h2>
           </div>
 
           {/* 안내문구 */}
@@ -120,7 +120,7 @@ const Footer = () => {
         <>
           <div className={styles.desktopWrapper}>
             <div className={styles.leftSide}>
-              <h2>2025 부천 원종 휴먼빌 클라츠</h2>
+              <h2>부천 원종 휴먼빌 클라츠</h2>
               <p>
                 본 웹사이트에서 사용된 사진 및 이미지는 소비자의 이해를 돕기 위한
                 것으로 실제와 다를 수 있습니다.
