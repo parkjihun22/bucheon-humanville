@@ -72,7 +72,7 @@ const ComplexGuide1 = () => {
         />
         <link
           rel="canonical"
-          href="https://www.marvelpartners.co.kr/SalesInfo/guide"
+          href="https://www.abcya4.com/SalesInfo/guide"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -86,11 +86,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.marvelpartners.co.kr/Main1.png"
+          content="https://www.abcya4.com/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.marvelpartners.co.kr/SalesInfo/guide"
+          content="https://www.abcya4.com/SalesInfo/guide"
         />
         <meta property="og:site_name" content="원종 휴먼빌 클라츠" />
 
@@ -106,11 +106,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.marvelpartners.co.kr/Main1.png"
+          content="https://www.abcya4.com/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.marvelpartners.co.kr/SalesInfo/guide"
+          content="https://www.abcya4.com/SalesInfo/guide"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -121,7 +121,7 @@ const ComplexGuide1 = () => {
              "@type": "WebPage",
              "name": "원종 휴먼빌 클라츠 - 인터넷청약",
              "description": "원종 휴먼빌 클라츠의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 원종 휴먼빌 클라츠의 기회를 놓치지 마세요.",
-             "url": "https://www.marvelpartners.co.kr/SalesInfo/guide"
+             "url": "https://www.abcya4.com/SalesInfo/guide"
                  }
                  `}
         </script>

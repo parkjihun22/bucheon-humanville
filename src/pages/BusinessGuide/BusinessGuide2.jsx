@@ -71,7 +71,7 @@ const BusinessGuide2 = () => {
           name="keywords"
           content="원종 휴먼빌 클라츠, 부천 원종 휴먼빌, 원종 휴먼빌 클라츠모델하우스"
         />
-        <link rel="canonical" href="https://www.marvelpartners.co.kr/BusinessGuide/plan" />
+        <link rel="canonical" href="https://www.abcya4.com/BusinessGuide/plan" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta property="og:title" content="원종 휴먼빌 클라츠 - 분양일정" />
@@ -81,11 +81,11 @@ const BusinessGuide2 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.marvelpartners.co.kr/Main1.png"
+          content="https://www.abcya4.com/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.marvelpartners.co.kr/BusinessGuide/plan"
+          content="https://www.abcya4.com/BusinessGuide/plan"
         />
         <meta property="og:site_name" content="원종 휴먼빌 클라츠" />
 
@@ -101,11 +101,11 @@ const BusinessGuide2 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.marvelpartners.co.kr/Main1.png"
+          content="https://www.abcya4.com/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.marvelpartners.co.kr/BusinessGuide/plan"
+          content="https://www.abcya4.com/BusinessGuide/plan"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -116,7 +116,7 @@ const BusinessGuide2 = () => {
 			"@type": "WebPage",
 			"name": "원종 휴먼빌 클라츠 - 분양일정",
 			"description": "원종 휴먼빌 클라츠의 분양 일정은 중요한 날짜들을 안내하는 핵심 정보입니다. 입주 희망자들에게 분양 일정과 함께 주요 일정 변경 사항을 실시간으로 제공합니다. 정확한 분양 일정을 확인하고, 청약 준비를 미리 진행할 수 있도록 도와줍니다. 분양 공고를 통해 추가 정보와 분양 조건을 확인해보세요.",
-			"url": "https://www.marvelpartners.co.kr/BusinessGuide/plan"
+			"url": "https://www.abcya4.com/BusinessGuide/plan"
 					}
 					`}
         </script>

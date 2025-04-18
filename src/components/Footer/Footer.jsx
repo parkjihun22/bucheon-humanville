@@ -52,7 +52,7 @@ const Footer = () => {
         <div className={styles.mobileWrapper}>
           {/* 상단 로고 */}
           <div className={styles.mobileLogo}>
-            <h2>쌍용건설</h2>
+            <h2>일신건영</h2>
             <p>원종 휴먼빌 클라츠</p>
           </div>
 
@@ -77,10 +77,10 @@ const Footer = () => {
           {/* 시행사/시공사 */}
           <div className={styles.mobileCompany}>
             <div>
-              <strong>시&nbsp;행&nbsp;사</strong> (주)쌍용건설
+              <strong>시&nbsp;행&nbsp;사</strong> (주)일신건영
             </div>
             <div>
-              <strong>시&nbsp;공&nbsp;사</strong> (주)쌍용건설
+              <strong>시&nbsp;공&nbsp;사</strong> (주)일신건영
             </div>
           </div>
 
@@ -136,10 +136,10 @@ const Footer = () => {
               </div>
               <div className={styles.companyInfo}>
                 <div>
-                  <strong>시&nbsp;행&nbsp;사</strong> (주)쌍용건설
+                  <strong>시&nbsp;행&nbsp;사</strong> (주)일신건영
                 </div>
                 <div>
-                  <strong>시&nbsp;공&nbsp;사</strong> (주)쌍용건설
+                  <strong>시&nbsp;공&nbsp;사</strong> (주)일신건영
                 </div>
               </div>
               <div className={styles.buttonRow}>

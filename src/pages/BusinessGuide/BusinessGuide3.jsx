@@ -81,7 +81,7 @@ const BusinessGuide2 = () => {
           name="keywords"
           content="원종 휴먼빌 클라츠, 부천 원종 휴먼빌, 원종 휴먼빌 클라츠모델하우스"
         />
-        <link rel="canonical" href="https://www.marvelpartners.co.kr/BusinessGuide/documents" />
+        <link rel="canonical" href="https://www.abcya4.com/BusinessGuide/documents" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta property="og:title" content="원종 휴먼빌 클라츠 - 계약서류안내" />
@@ -91,11 +91,11 @@ const BusinessGuide2 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.marvelpartners.co.kr/Main1.png"
+          content="https://www.abcya4.com/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.marvelpartners.co.kr/BusinessGuide/documents"
+          content="https://www.abcya4.com/BusinessGuide/documents"
         />
         <meta property="og:site_name" content="원종 휴먼빌 클라츠" />
 
@@ -111,11 +111,11 @@ const BusinessGuide2 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.marvelpartners.co.kr/Main1.png"
+          content="https://www.abcya4.com/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.marvelpartners.co.kr/BusinessGuide/documents"
+          content="https://www.abcya4.com/BusinessGuide/documents"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -126,7 +126,7 @@ const BusinessGuide2 = () => {
 						"@type": "WebPage",
 						"name": "원종 휴먼빌 클라츠 - 계약서류안내",
 						"description": "계약서류안내 페이지에서는 분양 당첨 후 필요한 서류들에 대해 안내합니다. 계약 체결을 위해 준비해야 할 서류 목록과 함께, 각 서류의 제출 기한과 정확한 준비 방법을 안내하여 고객들이 혼동 없이 준비할 수 있도록 돕습니다.",
-						"url": "https://www.marvelpartners.co.kr/BusinessGuide/documents"
+						"url": "https://www.abcya4.com/BusinessGuide/documents"
 								}
 								`}
         </script>
