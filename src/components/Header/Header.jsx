@@ -39,7 +39,7 @@ const menuArray = [
   {
     title: "입지환경",
     subMenu: [
-      { subTitle: "입지안내영상", subUrl: "/FloorPlan/videos" },
+      // { subTitle: "입지안내영상", subUrl: "/FloorPlan/videos" },
       { subTitle: "입지안내", subUrl: "/LocationEnvironment/intro" },
       { subTitle: "프리미엄", subUrl: "/LocationEnvironment/primium" },
     ],
@@ -55,18 +55,20 @@ const menuArray = [
   {
     title: "세대안내",
     subMenu: [
-      { subTitle: "59A", subUrl: "/FloorPlan/59A" },
-      { subTitle: "59B", subUrl: "/FloorPlan/59B" },
-      { subTitle: "74㎡", subUrl: "/FloorPlan/59A" },
-      { subTitle: "84㎡", subUrl: "/FloorPlan/59B" },
+      { subTitle: "46㎡", subUrl: "/FloorPlan/59A" },
+      { subTitle: "47㎡", subUrl: "/FloorPlan/59B" },
+      { subTitle: "59A", subUrl: "/FloorPlan/84A" },
+      { subTitle: "59B", subUrl: "/FloorPlan/84B" },
+      { subTitle: "59C", subUrl: "/FloorPlan/114A" },
+
 
     ],
   },
   {
     title: "인테리어",
     subMenu: [
-      { subTitle: "59㎡", subUrl: "/Interior/59A" },
-      { subTitle: "84㎡", subUrl: "/Interior/84A" },
+      { subTitle: "46㎡", subUrl: "/Interior/59A" },
+      { subTitle: "59A", subUrl: "/Interior/84A" },
 
     ],
   },

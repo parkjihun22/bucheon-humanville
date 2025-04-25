@@ -14,8 +14,12 @@ import page1 from "../../assets/FloorPlan/FloorPlan5/page1.jpg"
 
 const FloorPlan5 = () => {
 	const menuContents = [
-		{ title: "59㎡", url: "/FloorPlan/59A" },
-		{ title: "84㎡", url: "/FloorPlan/59B" },
+		{ title: "46㎡", url: "/FloorPlan/59A" },
+		{ title: "47㎡", url: "/FloorPlan/59B" },
+		{ title: "59A", url: "/FloorPlan/84A" },
+		{ title: "59B", url: "/FloorPlan/84B" },
+    	{ title: "59C", url: "/FloorPlan/114A" },
+		// { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
 	
 	];
 
