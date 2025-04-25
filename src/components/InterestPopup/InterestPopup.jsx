@@ -70,6 +70,18 @@ const InterestPopup = ({ onClose, registration, handleInputChange }) => {
                     required
                   />
                 </div>
+                <div className={styles.formGroup}>
+                  <label htmlFor="phone">
+                    생년월일<span>*</span>
+                  </label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    value={registration.phone}
+                    onChange={handleInputChange}
+                    required
+                  />
+                </div>
               
                 
                 <button
