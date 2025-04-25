@@ -48,7 +48,7 @@ const section3Contents = [
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
     text1: `앞선 직주근접 라이프`,
-    text2: `부천 제 1,2 일반산업단지로 1차 직주근접 수요 확보<br />
+    text2: `부천 제 1,2 일반산업단지로 1차 <br />
             부천 벤처협동화단지, 평촌 중소기업단지 등 <br /> 직주근접 프리미엄`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
@@ -58,7 +58,7 @@ const section3Contents = [
     title: "PREMIUM 02",
     text1: `안심학세권, 핵심인프라 라이프`,
     text2: `이마트,하나로마트, 오정농수산물시장과<br />
-            부천병원, 회덕초등학교 등 편리한 인프라 구성`,
+            부천병원, 회덕초등학교 등`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
@@ -66,7 +66,7 @@ const section3Contents = [
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
     text1: `부천을 잇는 사통팔달 광역교통망`,
-    text2: `2호선 읍내역(28년 예정) 역세권과 단지앞 버스노선<br />
+    text2: `2호선 읍내역(28년 예정) 역세권과<br />
            부천로, 신탄진로, 호남고속도로 인접 3KM내 BRT정류장 등`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
@@ -74,8 +74,8 @@ const section3Contents = [
   {
     imgSrc: section3_Image4,
     title: "PREMIUM 04",
-    text1: `합리적인 입주축하금 지원`,
-    text2: `입주축하금 1500만원 상당의 혜택으로<br />
+    text1: `분양가 상한제 적용`,
+    text2: `저렴하고 합리적인 분양가로 <br />
             내집마련의 기회`,
     link: "/LocationEnvironment/primium",
     linkText: "더 알아보기 >",
