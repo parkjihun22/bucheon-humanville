@@ -89,7 +89,7 @@ const InterestPopup = ({ onClose, registration, handleInputChange }) => {
                   className={styles.submitBtn}
                   disabled={isSubmitting}
                 >
-                  {isSubmitting ? "등록 중..." : "방문예약 등록"}
+                  {isSubmitting ? "등록 중..." : "관심고객등록"}
                 </button>
               </form>
             )}
