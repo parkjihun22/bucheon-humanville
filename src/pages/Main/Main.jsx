@@ -365,17 +365,6 @@ const Main = () => {
       onChange={handleInputChange}
       required
     />
-    <label htmlFor="phone">
-      생년월일 <span className={styles.redStar}>*</span>
-    </label>
-    <input
-      type="tel"
-      name="phone"
-      placeholder="0000-00-00"
-      value={registration.phone}
-      onChange={handleInputChange}
-      required
-    />
 
     <label htmlFor="message">
       문의 내용
@@ -585,17 +574,6 @@ const Main = () => {
       type="tel"
       name="phone"
       placeholder="010-0000-0000"
-      value={registration.phone}
-      onChange={handleInputChange}
-      required
-    />
-    <label htmlFor="phone">
-      생년월일 <span className={styles.redStar}>*</span>
-    </label>
-    <input
-      type="tel"
-      name="phone"
-      placeholder="0000-00-00"
       value={registration.phone}
       onChange={handleInputChange}
       required
