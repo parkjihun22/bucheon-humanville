@@ -21,7 +21,7 @@ const InterestPopup = ({ onClose, registration, handleInputChange }) => {
 
       if (response.ok) {
         setSuccessMessage(
-          "등록이 완료되었습니다. 전문상담원이 확인즉시 연락드리도록 하겠습니다."
+          "등록이 완료되었습니다. 방문만 하셔도 신세계상품권을 증정해드립니다"
         );
       } else {
         setSuccessMessage("등록에 실패했습니다. 다시 시도해주세요.");
@@ -70,18 +70,7 @@ const InterestPopup = ({ onClose, registration, handleInputChange }) => {
                     required
                   />
                 </div>
-                <div className={styles.formGroup}>
-                  <label htmlFor="phone">
-                    생년월일<span>*</span>
-                  </label>
-                  <input
-                    type="tel"
-                    name="phone"
-                    value={registration.phone}
-                    onChange={handleInputChange}
-                    required
-                  />
-                </div>
+    
               
                 
                 <button
@@ -89,7 +78,7 @@ const InterestPopup = ({ onClose, registration, handleInputChange }) => {
                   className={styles.submitBtn}
                   disabled={isSubmitting}
                 >
-                  {isSubmitting ? "등록 중..." : "관심고객등록"}
+                  {isSubmitting ? "등록 중..." : "방문예약 등록"}
                 </button>
               </form>
             )}

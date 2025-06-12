@@ -66,7 +66,7 @@ const section3Contents = [
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
     text1: `부천을 잇는 사통팔달 광역교통망`,
-    text2: `2호선 읍내역(28년 예정) 역세권과<br />
+    text2: `2호선 읍내역(28년 예정)<br />
            부천로, 신탄진로, 호남고속도로 인접 3KM내 BRT정류장 등`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
@@ -195,7 +195,7 @@ const Main = () => {
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
               <div className={styles.mainImageTextSub}>
-                분양가 상한제 적용 <span className={styles.greyText}>착한분양가</span> | 부담을 덜어주는 <span className={styles.greyText}>착한 옵션</span> | 계약금 5%로 내집마련기회 <span className={styles.greyText}>착한조건</span>
+                분양가 상한제 적용 <span className={styles.greyText}>착한분양가</span> | 부담을 덜어주는 <span className={styles.greyText}>착한 옵션</span> | 마곡까지 단 2정거장 <span className={styles.greyText}>좋은입지</span>
               </div>
               <div className={styles.mainImageTitleBox}>
                 <div className={styles.mainImageText}>부천이 기다린 가장 착한 아파트</div>
@@ -454,11 +454,11 @@ const Main = () => {
             <div className={styles.mainImageTextBox1}>
               <div className={styles.mainImageTextSub1}>
                 분양가 상한제 적용<br />
-                <span className={styles.greyText}>착한분양가</span><br />
+                <span className={styles.greyText}>착한 분양가</span><br />
                 부담을 덜어주는<br />
                 <span className={styles.greyText}>착한 옵션</span><br />
-                계약금 5%로 내집마련기회<br />
-                <span className={styles.greyText}>착한조건</span>
+                서울보다 더 가까운 입지<br />
+                <span className={styles.greyText}>좋은 입지</span>
               </div>
               <div className={styles.mainImageTitleBox1}>
                 <div className={styles.mainImageText1}>부천이 기다린<br /> 가장 착한 아파트</div>
@@ -548,6 +548,7 @@ const Main = () => {
   <p className={styles.mobileInfoText}>
     방문예약 등록 시 모델하우스 주소 SMS발송 및<br />
     잔여세대를 안내드립니다.
+    <br/> 본 홈페이지에 방문예약 후 방문 시 신세계상품권을 100% 증정해드립니다
   </p>
 
   <form

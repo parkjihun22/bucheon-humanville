@@ -1,19 +1,19 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlineRight, AiOutlineLeft } from "react-icons/ai";
 import styles from "./UnitplanBox.module.scss";
-import room59A from "../../assets/UnitplanBox/59A.png";
-import room59B from "../../assets/UnitplanBox/59B.png";
-import room74A from "../../assets/UnitplanBox/74A.jpg";
-import room84A from "../../assets/UnitplanBox/84A.jpg";
-import room114A from "../../assets/UnitplanBox/59A.png";
-import room114B from "../../assets/UnitplanBox/59A.png";
+import room46 from "../../assets/UnitplanBox/46.jpg";
+import room47 from "../../assets/UnitplanBox/47.jpg";
+import room59A from "../../assets/UnitplanBox/59A.jpg";
+import room59B from "../../assets/UnitplanBox/59B.jpg";
+import room59C from "../../assets/UnitplanBox/59C.jpg";
 import { useMediaQuery } from "react-responsive";
 
 const contents = [
+    { type: '46㎡', src: room46 },
+    { type: '47㎡', src: room47 },
     { type: '59A', src: room59A },
     { type: '59B', src: room59B },
-    { type: '74㎡', src: room74A },
-    { type: '84㎡', src: room84A },
+    { type: '59C', src: room59C },
 
 
 ]
