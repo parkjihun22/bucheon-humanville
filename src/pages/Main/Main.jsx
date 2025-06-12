@@ -453,16 +453,16 @@ const Main = () => {
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
               <div className={styles.mainImageTextSub1}>
-                분양가 상한제 적용<br />
-                <span className={styles.greyText}>착한 분양가</span><br />
-                부담을 덜어주는<br />
-                <span className={styles.greyText}>착한 옵션</span><br />
-                서울보다 더 가까운 입지<br />
-                <span className={styles.greyText}>좋은 입지</span>
+                원종 대장지구 바로 옆<br/>
+                모든 걸 갖춘 입지, 분양가 상한제
+                <br />
+              부천이 기다린 가장 착한 아파트
+                <br />
               </div>
               <div className={styles.mainImageTitleBox1}>
-                <div className={styles.mainImageText1}>부천이 기다린<br /> 가장 착한 아파트</div>
-                <div className={styles.mainImageText5}>원종 휴먼빌 클라츠</div>
+                <div className={styles.mainImageText1}>
+                  부천 원종 휴먼빌 클라츠
+                </div>
               </div>
             </div>
           </div>
