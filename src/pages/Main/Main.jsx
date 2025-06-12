@@ -453,7 +453,7 @@ const Main = () => {
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
               <div className={styles.mainImageTextSub1}>
-                원종 대장지구 바로 옆<br/>
+                부천 3기신도시 바로 옆<br/>
                 모든 걸 갖춘 입지, 분양가 상한제
                 <br />
               부천이 기다린 가장 착한 아파트
@@ -479,7 +479,15 @@ const Main = () => {
               - 모두를 누리는 반도체밸리 주거 타운의 완성
             </div>
             <div className={styles.text4}>
-              <a href="https://naver.me/55rUFpYq" target="_black">
+              {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                  setIsInterestPopupOpen(true);
+                }}
+                className={styles.popupBtn}
+              >
                 관심고객 등록하기 {">"}
               </a>
             </div>
@@ -548,7 +556,7 @@ const Main = () => {
   <p className={styles.mobileInfoText}>
     방문예약 등록 시 모델하우스 주소 SMS발송 및<br />
     잔여세대를 안내드립니다.
-    <br/> 본 홈페이지에 방문예약 후 방문 시 신세계상품권을 100% 증정해드립니다
+    <br/> 본 홈페이지에 방문예약 후 방문 시 <br/> 신세계상품권을 100% 증정해드립니다
   </p>
 
   <form
