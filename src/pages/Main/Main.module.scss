@@ -64,12 +64,14 @@
 }
 
 .greyText {
-    font-family: 'Pretendard-Regular';
-    color: #ffea00; /* 회색 텍스트 */
+  font-family: 'Paperlogy-8ExtraBold';
+    font-weight: 800;
+    color: #042432; /* 회색 텍스트 */
 }
 
 .blueText {
     font-family: 'Pretendard-Regular';
+    font-weight: 800;
     color: #042432; /* 파랑 텍스트 */
 }
 
@@ -472,7 +474,6 @@
             transform: translate(-50%, -50%);
             color: #FFFFFF;
             font-size: 1.5vw;
-            font-family: "HakgyoansimBareonbatangB";
         }
 
         .text2 {
@@ -481,7 +482,6 @@
             transform: translate(-50%, -50%);
             color: #d1af73;
             font-size: 2.5vw;
-            font-family: "GmarketSansMedium";
         }
 
         .text3 {
@@ -501,8 +501,8 @@
         width: 45vw;
 
         .text1 {
-            font-family: "HakgyoansimBareonbatangB";
-            font-size: 2.2vw;
+            margin-top: 1.3vw;
+            font-size: 2vw;
             color: #c98f25;
         }
 
@@ -513,7 +513,7 @@
             width: 100%;
             text-align: center;
             text-decoration: none;
-            font-family: "HakgyoansimBareonbatangB";
+
             font-size: 1.5vw;
             color: #d1af73;
         }

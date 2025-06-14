@@ -79,13 +79,13 @@ const UnitplanBox = () => {
 
             <div className={styles.imgContainer}>
                 <AiOutlineLeft
-                    size={!isMobile? 150 : 60}
+                    size={!isMobile? 50 : 60}
                     color={isLeft ? '#d1af73' : '#eedec3'} // 조건에 맞게 색상 변경
                     onClick={isLeft ? leftArray : undefined} // isLeft가 true일 때만 클릭 가능
                 />
                 <img className={`${styles.typeImg} ${animationClass}`} src={isImage} alt={istype.type} />
                 <AiOutlineRight
-                    size={!isMobile? 150 : 60}
+                    size={!isMobile? 50 : 60}
                     color={isRight ? '#d1af73' : '#eedec3'} // 조건에 맞게 색상 변경
                     onClick={isRight ? rightArray : undefined} // isRight가 true일 때만 클릭 가능
                 />
