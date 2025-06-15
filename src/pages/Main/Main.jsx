@@ -233,9 +233,17 @@ const Main = () => {
                   - 모두를 누리는 원종 휴먼빌 클라츠
                 </div>
                 <div className={styles.text4}>
-                  <a href="https://naver.me/55rUFpYq" target="_black">
-                    관심고객 등록하기 {">"}
-                  </a>
+              {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                  setIsInterestPopupOpen(true);
+                }}
+                className={styles.popupBtn}
+              >
+                관심고객 등록하기 {">"}
+              </a>
                 </div>
               </div>
               <div className={styles.menuBox}>
