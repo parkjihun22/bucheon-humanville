@@ -14,18 +14,14 @@ import { Helmet } from "react-helmet-async";
 const Emodel = () => {
   const menuContents = [
 		{ title: "46㎡", url: "/FloorPlan/59A" },
-		{ title: "47㎡", url: "/FloorPlan/59B" },
 		{ title: "59A", url: "/FloorPlan/84A" },
-		{ title: "59B", url: "/FloorPlan/84B" },
-    { title: "59C", url: "/FloorPlan/114A" },
-    { title: "E-모델하우스", url: "/FloorPlan/Emodel" },
 		// { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
   ];
 
   // selectedType과 동일한 키를 가진 객체여야 합니다.
   const vrUrls = {
-    "46": "http://xn--oi2b45cf3edslp8bdznnf9d50q.com/vr/46.html",
-    "59A": "http://xn--oi2b45cf3edslp8bdznnf9d50q.com/vr/59a.html",
+    "46": "http://xn--oi2b45cf3edslp8bdznf9d50q.com/vr/46.html",
+    "59A": "http://xn--oi2b45cf3edslp8bdznf9d50q.com/vr/59a.html",
 
   };
 

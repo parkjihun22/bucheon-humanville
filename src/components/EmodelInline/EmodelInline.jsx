@@ -9,8 +9,8 @@ const menuContents = [
 ];
 
 const vrUrls = {
-  "46": "",
-  "59A": "",
+  "46": "http://xn--oi2b45cf3edslp8bdznf9d50q.com/vr/46.html",
+  "59A": "http://xn--oi2b45cf3edslp8bdznf9d50q.com/vr/59a.html",
 
 };
 
