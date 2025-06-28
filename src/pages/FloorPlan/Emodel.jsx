@@ -58,7 +58,7 @@ const Emodel = () => {
         <meta name="keywords" content="원종휴먼빌, E-모델하우스, 온라인모델하우스" />
         <link
           rel="canonical"
-          href="https://your-domain.com/FloorPlan/Emodel"
+          href="https://www.abcya4.com/FloorPlan/Emodel"
         />
         <meta
           property="og:title"
@@ -70,11 +70,11 @@ const Emodel = () => {
         />
         <meta
           property="og:image"
-          content="https://your-domain.com/assets/thumbnail.png"
+          content="https://www.abcya4.com/Main1.jpg"
         />
         <meta
           property="og:url"
-          content="https://your-domain.com/FloorPlan/Emodel"
+          content="https://www.abcya4.com/FloorPlan/Emodel"
         />
         <meta property="og:site_name" content="원종 휴먼빌" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -85,7 +85,7 @@ const Emodel = () => {
         />
         <meta
           name="twitter:image"
-          content="https://your-domain.com/assets/thumbnail.png"
+          content="https://www.abcya4.com/Main1.jpg"
         />
       </Helmet>
 
