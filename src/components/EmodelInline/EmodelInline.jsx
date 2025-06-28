@@ -15,7 +15,7 @@ const vrUrls = {
 };
 
 export default function EmodelInline() {
-  const [selectedType, setSelectedType] = useState("59A");
+  const [selectedType, setSelectedType] = useState("46");
 
   return (
     <div className={styles.inlineWrapper}>
