@@ -195,7 +195,7 @@ export default function MobileOverviewSection() {
     <section className={styles.overviewSection}>
       {/* ─── 헤더 영역 ─── */}
       <header className={styles.overviewHeader}>
-        <div className={styles.preTitle}>ONE CLUSTER BUSINESS</div>
+        <div className={styles.preTitle}>Humanville BUSINESS</div>
         <div className={styles.line} />
         <h2 className={styles.mainTitle}>사업안내</h2>
       </header>
