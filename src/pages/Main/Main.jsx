@@ -16,6 +16,10 @@ import MobileSectionBox from "../../components/MobileSectionBox/MobileSectionBox
 import InterestPopup from "../../components/InterestPopup/InterestPopup"; // 새 팝업 컴포넌트 import
 // import UrlContainer from "../../components/UrlContainer/UrlContainer";
 
+import UnitInfoSection from "../../components/UnitInfoSection/UnitInfoSection";
+import MobileOverviewSection from "../../components/MobileOverviewSection/MobileOverviewSection";
+import DarkComplexSection from "../../components/DarkComplexSection/DarkComplexSection";
+
 
 import mainImage from "../../assets/Main/Main1.jpg";
 import section1_Image1 from "../../assets/Main/section1-img1.jpg";
@@ -500,8 +504,14 @@ const Main = () => {
               </a>
             </div>
           </div>
+          <MobileOverviewSection />
+          {/* ② DarkComplexSection 추가 */}
+         <section className={styles.darkSection}>
+           <DarkComplexSection />
+         </section>
+          
 
-          <div className={styles.container7}>
+          {/* <div className={styles.container7}>
             <div className={styles.textBox}>
               <div className={styles.title}>
                 부천의 중심으로 사는<br />
@@ -516,9 +526,9 @@ const Main = () => {
               </div>
             </div>
             <img src={section8Img3} alt="원종 휴먼빌 클라츠mobile입지안내-image1" />
-          </div>
+          </div> */}
 
-          <div className={styles.container3}>
+          {/* <div className={styles.container3}>
             <div className={styles.textbox}>
               <div className={`${styles.text1} fadeUpRepeat`}>
                 완벽한 생활에서 준비된 미래까지
@@ -534,9 +544,10 @@ const Main = () => {
               </div>
             </div>
             <img src={section2_Image1} alt="원종 휴먼빌 클라츠mobile조감도-image1" />
-          </div>
+          </div> */}
+          <UnitInfoSection />
 
-          <div className={styles.container4}>
+          {/* <div className={styles.container4}>
             <div className={styles.text1}>UNITPLAN</div>
             <UnitplanBox />
             <Link to="/FloorPlan/84A" className={styles.text2}>
@@ -555,7 +566,7 @@ const Main = () => {
                 subText2={section.text2}
               />
             ))}
-          </div>
+          </div> */}
 
           {/* 모바일 방문예약 섹션 */}
 <div className={styles.mobileVisitContainer}>

@@ -1,0 +1,62 @@
+/* EmodelInline.module.scss */
+.inlineWrapper {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* ─── 탭 메뉴 ───────────────────────────────────────────────── */
+  .tabMenu {
+    display: flex;
+    justify-content: center;    /* ← 가운대로 정렬 */
+    gap: 1.5vw;
+    margin-bottom: 2vw;         /* 약간 여유 더 주기 */
+    overflow-x: auto;
+  }
+  
+  .tabButton {
+    flex: none;
+    padding: 1vw 6.5vw;
+    border: 0.15vw solid #00524e;
+    border-radius: 1.5vw;
+    font-size: 3.5vw;
+    color: #00524e;
+    background: #fff;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.2s, color 0.2s;
+  }
+  
+  .activeTab {
+    background: #00524e;
+    color: #fff;
+  }
+  
+  /* ─── VR 섹션 ───────────────────────────────────────────────── */
+  .vrSection {
+    position: relative;
+    padding-top: 75%;           /* ← 높이를 75%로 늘려 영상 크게 */
+    border-radius: 1.5vw;
+    overflow: hidden;
+    margin-bottom: 2vw;         /* 조금 여유 추가 */
+  }
+  
+  .vrDescription {
+    position: absolute;
+    top: 1vw;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    font-size: 2vw;
+    color: #fff;
+    text-shadow: 0 0 0.5vw rgba(0, 0, 0, 0.7);
+  }
+  
+  .vrIframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
