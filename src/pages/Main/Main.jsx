@@ -71,7 +71,7 @@ const section3Contents = [
     title: "PREMIUM 03",
     text1: `부천을 잇는 사통팔달 광역교통망`,
     text2: `2호선 읍내역(28년 예정)<br />
-           부천로, 신탄진로, 호남고속도로 인접 3KM내 BRT정류장 등`,
+           부천로,호남고속도로 인접 BRT인접 등`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
@@ -553,7 +553,7 @@ const Main = () => {
             <Link to="/FloorPlan/84A" className={styles.text2}>
               <div>더 알아보기 &gt;</div>
             </Link>
-          </div>
+          </div> */}
 
           <div className={styles.container6}>
             {section3Contents.map((section, idx) => (
@@ -566,7 +566,7 @@ const Main = () => {
                 subText2={section.text2}
               />
             ))}
-          </div> */}
+          </div>
 
           {/* 모바일 방문예약 섹션 */}
 <div className={styles.mobileVisitContainer}>
