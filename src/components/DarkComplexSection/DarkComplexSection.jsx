@@ -12,7 +12,7 @@ import bennerImg from "../../assets/ComplexGuide/ComplexGuide1/complex-1024x573.
 
 const items = [
   { key: "layout",    label: "단지배치도",    img: layoutImg },
-  { key: "design",    label: "단지특화설계",  img: designImg },
+  { key: "design",    label: "호수배치도",  img: designImg },
   { key: "community", label: "커뮤니티",      img: communityImg },
 ];
 
