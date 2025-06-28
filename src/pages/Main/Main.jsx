@@ -465,15 +465,15 @@ const Main = () => {
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
               <div className={styles.mainImageTextSub1}>
-                부천 3기신도시 바로 옆<br/>
-                모든 걸 갖춘 입지, 분양가 상한제
+                마곡까지 단, 650m<br/>
+                서울 출퇴근이 가능한, 유일한 분양가 상한제
                 <br />
-              부천이 기다린 가장 착한 아파트
+              15년만에 들어오는 신축 아파트
                 <br />
               </div>
               <div className={styles.mainImageTitleBox1}>
                 <div className={styles.mainImageText1}>
-                  부천 원종 휴먼빌 클라츠
+                  원종 휴먼빌 클라츠
                 </div>
               </div>
             </div>
