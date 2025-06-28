@@ -24,10 +24,9 @@ const Emodel = () => {
 
   // selectedType과 동일한 키를 가진 객체여야 합니다.
   const vrUrls = {
-    "59A": "http://xn--oi2b45cf3edslp8bdznnf9d50q.com/vr/46.html",
-    "59B": "http://xn--oi2b45cf3edslp8bdznnf9d50q.com/vr/59a.html",
-    "84A": "https://xn--oi2b45cf3edslp8bdznnf9d50q.com/vr/84a.html",
-    "84B": "https://xn--oi2b45cf3edslp8bdznnf9d50q.com/vr/84b.html",
+    "46": "http://xn--oi2b45cf3edslp8bdznnf9d50q.com/vr/46.html",
+    "59A": "http://xn--oi2b45cf3edslp8bdznnf9d50q.com/vr/59a.html",
+
   };
 
   const [selectedType, setSelectedType] = useState("59A");
