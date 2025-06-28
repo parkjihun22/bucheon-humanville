@@ -466,7 +466,7 @@ const Main = () => {
             <div className={styles.mainImageTextBox1}>
               <div className={styles.mainImageTextSub1}>
                 마곡까지 단, 650m<br/>
-                서울 출퇴근이 가능한, 유일한 분양가 상한제
+                서울 출퇴근이 가능한  <br />유일한 분양가 상한제
                 <br />
               15년만에 들어오는 신축 아파트
                 <br />
