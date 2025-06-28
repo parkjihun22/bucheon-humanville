@@ -607,14 +607,6 @@ const Main = () => {
       required
     />
 
-    <label htmlFor="message">문의 내용</label>
-    <textarea
-      name="message"
-      placeholder="문의 내용이 있을 경우 이곳에 남겨주세요."
-      value={registration.message}
-      onChange={handleInputChange}
-      rows={5}
-    />
 
     <button type="submit">등록하기</button>
   </form>
