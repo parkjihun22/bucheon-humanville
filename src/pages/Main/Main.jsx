@@ -482,12 +482,13 @@ const Main = () => {
           <div className={styles.container1}>
             <div className={styles.text1}>Location</div>
             <div className={styles.text2}>
-              "방문예약을 하시면 신세계 상품권 100% 증정 "
+              원종 휴먼빌 클라츠 중요 POINT
             </div>
             <div className={styles.text3}>
               - 일신건영의 대표 브랜드 '휴먼빌' 시그니처 라이프<br />
-              - 부천 제3기 신도시 바로 옆<br />
-              - SK하이닉스, 대항항공의 직주근접 프리미엄과 분양가 상한제로<br />
+              - 서울로 출퇴근 가능한 유일한 분양가 상한제 아파트<br />
+              - SK하이닉스 연구공장, 대항항공의 투자유치로 직주근접 프리미엄<br />
+              - 마곡과의 거리 단 650m 및 오종역,원종역을 통한 광역교통 프리미엄<br /> 
               - 모두를 누리는 주거 타운의 완성
             </div>
             <div className={styles.text4}>
@@ -511,7 +512,7 @@ const Main = () => {
          </section>
           
 
-          {/* <div className={styles.container7}>
+          <div className={styles.container7}>
             <div className={styles.textBox}>
               <div className={styles.title}>
                 부천의 중심으로 사는<br />
@@ -526,25 +527,25 @@ const Main = () => {
               </div>
             </div>
             <img src={section8Img3} alt="원종 휴먼빌 클라츠mobile입지안내-image1" />
-          </div> */}
+          </div>
 
-          {/* <div className={styles.container3}>
+          <div className={styles.container3}>
             <div className={styles.textbox}>
               <div className={`${styles.text1} fadeUpRepeat`}>
                 완벽한 생활에서 준비된 미래까지
               </div>
               <div className={`${styles.text2} fadeUpRepeat`}>
                 기대한 모든 프리미엄이<br />
-                원종 휴먼빌 클라츠에서 펼쳐집니다
+                원종 휴먼빌 클라츠에서 <br /> 펼쳐집니다
               </div>
               <div className={`${styles.text3} fadeUpRepeat`}>SPECIAL PLAN</div>
               <div className={`${styles.text4} fadeUpRepeat`}>
                 살수록 자부심이 차원이 다른<br />
-                프리미엄 주거라이프를 원종 휴먼빌 클라츠 모델하우스에서 확인하세요
+                프리미엄 주거라이프를 <br /> 원종 휴먼빌 클라츠 모델하우스에서 확인하세요
               </div>
             </div>
             <img src={section2_Image1} alt="원종 휴먼빌 클라츠mobile조감도-image1" />
-          </div> */}
+          </div>
           <UnitInfoSection />
 
           {/* <div className={styles.container4}>
